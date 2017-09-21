@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="261dp"
+            android:layout_height="54dp"
+            android:gravity="center">
+
+            <TextView
+                android:text="Theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="?colorPrimaryDark"
+                android:textSize="20dp"
+                android:id="@+id/setThemeText"
+                android:layout_weight="0.03" />
+
+            <com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/ThemeSpinner"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:textColor="?colorPrimary"
+                android:gravity="center"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp"
+                android:layout_weight="0.03" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView17"
+            android:layout_weight="0.24" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:src="@drawable/profile_icon"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                app:mtf_image="@drawable/ic_username"
+                app:mtf_labelColor="?colorPrimaryDark">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/userEdit"
+                    android:hint="使用者名稱"
+                    android:singleLine = "true"
+                    android:textColor="?colorPrimaryDark"
+                    android:textColorHint="#666"
+                    android:textSize="15sp"
+                    android:gravity="center" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <com.github.florent37.materialtextfield.MaterialTextField
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                app:mtf_image="@drawable/ic_set_password"
+                app:mtf_labelColor="?colorPrimaryDark"
+                android:id="@+id/settingOpen">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passEdit"
+                    android:hint="密碼"
+                    android:singleLine = "true"
+                    android:textColor="?colorPrimaryDark"
+                    android:textColorHint="#666"
+                    android:textSize="15sp"
+                    android:gravity="center" />
+
+            </com.github.florent37.materialtextfield.MaterialTextField>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

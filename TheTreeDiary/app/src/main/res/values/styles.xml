@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="material_drawer_selected_text">@color/colorPrimary</item>
+    </style>
+    <style name="PinkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/PinkPrimary</item>
+        <item name="colorPrimaryDark">@color/PinkPrimaryDark</item>
+        <item name="colorAccent">@color/PinkPrimary</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="material_drawer_selected_text">@color/PinkPrimary</item>
+
+    </style>
+    <style name="GrassTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/GrassPrimary</item>
+        <item name="colorPrimaryDark">@color/GrassPrimaryDark</item>
+        <item name="colorAccent">@color/GrassPrimary</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="material_drawer_selected_text">@color/GrassPrimary</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="?colorPrimary"
+        android:id="@+id/textToolbar"
+        android:layout_height="36dp"
+        android:gravity="center">
+
+
+        <Button
+            android:layout_width="35dp"
+            android:id="@+id/insertP"
+            android:background="@drawable/ic_photo_white_36dp"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:layout_height="35dp" />
+
+        <Button
+            android:layout_width="53dp"
+            android:layout_height="25dp"
+            android:id="@+id/insertFace"
+            android:background="?colorPrimary"
+            style="?android:attr/borderlessButtonStyle"
+            android:gravity="center_vertical|center_horizontal|center"
+            android:text="(ﾟ∀ﾟ)"
+            android:textStyle="bold"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:background="#000000"
+            android:id="@+id/textColor"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textSizeS"
+            android:gravity="left"
+            android:textAlignment="textEnd" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:gravity="center">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/textTitle"
+            android:hint="請輸入標題"
+            android:textColorHint="#E0E0E0"
+            android:backgroundTint="?colorPrimaryDark"
+            android:textColorLink="?attr/colorPrimaryDark"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textColorHighlight="?colorPrimaryDark"
+            android:textColor="@color/B"
+            android:layout_weight="1"
+            android:textSize="@dimen/default_bmb_buttonVerticalMargin" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inputType="textMultiLine|textPersonName"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:gravity="top|left"
+        android:hint="點擊開始輸入"
+        android:textColorHint="#E0E0E0"
+        android:textColorLink="?attr/colorPrimary"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="@dimen/default_bmb_buttonVerticalMargin" />
+
+
+</LinearLayout>

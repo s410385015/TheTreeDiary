@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:gravity="center">
+
+        <TextView
+            android:text="TEXT"
+            android:layout_width="107dp"
+            android:layout_height="49dp"
+            android:id="@+id/TextDemo"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.03">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textSize"
+            android:layout_weight="0.04"
+            android:gravity="center" />
+
+        <Spinner
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textSizeSp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textType"
+            android:layout_weight="0.04"
+            android:gravity="center" />
+        <Spinner
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textTypeS"
+            android:spinnerMode="dialog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textColor"
+            android:layout_weight="0.04"
+            android:gravity="center" />
+    </LinearLayout>
+</LinearLayout>

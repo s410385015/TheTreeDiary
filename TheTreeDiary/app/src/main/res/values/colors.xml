@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_text_color">#b2b2b2</color>
+    <color name="button_text_color_p">#ffffff</color>
+
+    <color name="radio_button_unselected_color">@android:color/transparent</color>
+    <color name="white">#ffffff</color>
+    <color name="colorPrimary">#33b5e5</color>
+    <color name="colorPrimaryDark">#ff3395ff</color>
+    <color name="PinkPrimary">#FAA4BD</color>
+    <color name="PinkPrimaryDark">#FF69B4</color>
+    <color name="radio_button_selected_color">#FF69B4</color>
+    <color name="GrassPrimary">#32CD32</color>
+    <color name="GrassPrimaryDark">	#006400</color>
+    <color name="colorAccent">#7733b5e5</color>
+    <color name="B">#000</color>>
+    <array name="colorsType_bmb">
+        <item>#E0FFFF</item>
+        <item>#FFF0F5</item>
+        <item>#FFE4C4</item>
+        <item>#F0FFF0</item>
+        <item>#FFFFE0</item>
+        <item>#E6E6FA</item>
+    </array>
+    <string-array name="colorsType">
+        <item>#E0FFFF</item>
+        <item>#FFF0F5</item>
+        <item>#FFE4C4</item>
+        <item>#F0FFF0</item>
+        <item>#FFFFE0</item>
+        <item>#E6E6FA</item>
+    </string-array>
+    <string-array name="colorsTypeDark">
+        <item>#00BBFF</item>
+        <item>#FFC0CB</item>
+        <item>#FF8C00</item>
+        <item>#1E90FF</item>
+        <item>#FFBB00</item>
+        <item>#B088FF</item>
+    </string-array>
+
+
+</resources>

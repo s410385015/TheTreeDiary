@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">TheTreeDiary</string>
+    <string name="time_set">時間已更改</string>
+    <string name="date_set">日期已更動</string>
+    <string-array name="textSize">
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+    </string-array>
+    <string-array name="weather">
+        <item>晴天</item>
+        <item>雨天</item>
+        <item>陰天</item>
+    </string-array>
+    <string-array name="mood">
+        <item>開心</item>
+        <item>傷心</item>
+        <item>普通</item>
+    </string-array>
+    <string-array name="type">
+        <item>記事</item>
+        <item>心情</item>
+        <item>節日</item>
+        <item>食物</item>
+        <item>旅遊</item>
+        <item>風景</item>
+    </string-array>
+    <string name="title_activity_boom_example">BoomExampleActivity</string>
+    <string name="type1">記事</string>
+    <string name="type2">心情</string>
+    <string name="type3">節日</string>
+    <string name="type4">食物</string>
+    <string name="type5">旅遊</string>
+    <string name="type6">風景</string>
+    <string name="title_activity_tree_select">TreeSelect</string>
+    <string name="title_activity_add_new_tree">AddNewTree</string>
+
+    <integer-array name="type_imgs">
+        <item>@drawable/ic_type_1n</item>
+        <item>@drawable/ic_type_2n</item>
+        <item>@drawable/ic_type_3n</item>
+        <item>@drawable/ic_type_4n</item>
+        <item>@drawable/ic_type_5n</item>
+        <item>@drawable/ic_type_6n</item>
+    </integer-array>
+    <integer-array name="mood_imgs">
+        <item>@drawable/ic_mood_happy</item>
+        <item>@drawable/ic_mood_unhappy</item>
+        <item>@drawable/ic_mood_soso</item>
+    </integer-array>
+
+    <integer-array name="weather_imgs">
+        <item>@drawable/ic_weather_sunny</item>
+        <item>@drawable/ic_weather_rainy</item>
+        <item>@drawable/ic_weather_cloud</item>
+    </integer-array>
+
+    <integer-array name="add_imgs">
+        <item>@drawable/t1_stage1</item>
+        <item>@drawable/t2_stage1</item>
+        <item>@drawable/t3_stage1</item>
+        <item>@drawable/t4_stage1</item>
+        <item>@drawable/t5_stage1</item>
+    </integer-array>
+
+    <integer-array name="tree_imgs">
+        <item>@drawable/t1_stage1</item>
+        <item>@drawable/t2_stage1</item>
+        <item>@drawable/t3_stage1</item>
+        <item>@drawable/t4_stage1</item>
+        <item>@drawable/t5_stage1</item>
+        <item>@drawable/t1_stage2</item>
+        <item>@drawable/t2_stage2</item>
+        <item>@drawable/t3_stage2</item>
+        <item>@drawable/t4_stage2</item>
+        <item>@drawable/t5_stage2</item>
+        <item>@drawable/t1_stage3</item>
+        <item>@drawable/t2_stage3</item>
+        <item>@drawable/t3_stage3</item>
+        <item>@drawable/t4_stage3</item>
+        <item>@drawable/t5_stage3</item>
+        <item>@drawable/t1_stage4</item>
+        <item>@drawable/t2_stage4</item>
+        <item>@drawable/t3_stage4</item>
+        <item>@drawable/t4_stage4</item>
+        <item>@drawable/t5_stage4</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="left|center"
+        android:background="?colorPrimary">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_gotoback"
+            android:id="@+id/backtoselect"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="TreeView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/treeTitle"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <ListView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+</LinearLayout>

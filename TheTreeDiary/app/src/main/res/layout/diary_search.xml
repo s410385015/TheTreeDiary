@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="80dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="336dp"
+                android:layout_height="63dp"
+                android:background="@drawable/shadow_layout"
+                android:gravity="center">
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/Searchspinner"
+                    android:layout_width="79dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="?colorPrimaryDark"
+                    android:gravity="center"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_weight="3.11" />
+
+                <EditText
+                    android:layout_width="199dp"
+                    android:layout_height="52dp"
+                    android:inputType="textPersonName"
+                    android:text=""
+                    android:ems="10"
+                    android:hint="搜尋"
+                    android:textColorHint="?colorPrimary"
+                    android:textColor="?colorPrimaryDark"
+
+                    android:id="@+id/EditSearch" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_search"
+                    android:id="@+id/search_button"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</RelativeLayout>

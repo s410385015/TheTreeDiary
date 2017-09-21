@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@color/white"
+            android:id="@+id/treeImage"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_height="372dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTree"
+            android:layout_weight="0.85"
+            android:layout_below="@+id/treeImage"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:textStyle="normal|bold"
+            android:textSize="30sp"
+            android:textColor="?colorPrimaryDark"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Diarytotal"
+            android:layout_weight="0.85"
+            android:gravity="center"
+            android:textColor="?colorPrimary"/>
+        <com.daimajia.numberprogressbar.NumberProgressBar
+            android:id="@+id/number_progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

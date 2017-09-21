@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Emotions">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Angry</item>
+        <item>Wretched</item>
+    </string-array>
+    <string-array name="HAPPY">
+        <item>(*‘ v`*)</item>
+        <item>(*´Д`)つ))´∀`)</item>
+        <item>(^y^)</item>
+        <item>(*´ω`)人(´ω`*)</item>
+        <item>d(`･∀･)b</item>
+    </string-array>
+    <string-array name="SAD">
+        <item>இдஇ</item>
+        <item>(´;ω;`)</item>
+        <item>｡ﾟ(ﾟ´ω`ﾟ)ﾟ｡</item>
+        <item>( ´•̥̥̥ω•̥̥̥` )</item>
+        <item>(;´༎ຶД༎ຶ`)</item>
+    </string-array>
+    <string-array name="ANGRY">
+        <item>(#`Д´)ﾉ</item>
+        <item>(#`皿´)</item>
+        <item>(╬ﾟдﾟ)</item>
+        <item>(╬☉д⊙)</item>
+        <item>(╬ﾟдﾟ)▄︻┻┳═一</item>
+        </string-array>
+    <string-array name="WRETCHED">
+        <item>ლ(́◕◞౪◟◕‵ლ)</item>
+        <item>ლ｜＾Д＾ლ｜</item>
+        <item>ლ(◉◞౪◟◉ )ლ</item>
+        <item>ლ(╯⊙ε⊙ლ╰)</item>
+        <item>ლ(´•д• ̀ლ</item>
+    </string-array>
+</resources>
