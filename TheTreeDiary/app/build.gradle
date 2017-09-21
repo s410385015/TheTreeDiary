@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.3"
+    defaultConfig {
+        applicationId "com.example.nako.thetreediary"
+        minSdkVersion 18
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-annotations:24.2.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'info.hoang8f:android-segmented:1.0.6'
+    compile 'com.github.QuadFlask:colorpicker:0.0.12'
+    compile 'hanks.xyz:htextview-library:0.1.5'
+    compile 'com.github.Aspsine:FontManager:-SNAPSHOT'
+    compile 'com.wdullaer:materialdatetimepicker:3.0.0'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
+    compile 'com.jaredrummler:material-spinner:1.1.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.nightonke:boommenu:2.0.4'
+    compile('com.mikepenz:materialdrawer:5.8.1@aar') {
+        transitive = true
+    }
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+    compile 'com.android.support:support-v4:24.+'
+    compile "com.daimajia.swipelayout:library:1.2.0@aar"
+
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.easing:library:1.0.1@aar'
+    compile 'com.daimajia.androidanimations:library:1.1.3@aar'
+
+    compile 'com.jaredrummler:material-spinner:1.1.0'
+    compile 'com.github.mancj:MaterialSearchBar:0.3.5'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+
+    compile 'com.github.florent37:materialtextfield:1.0.5'
+    compile 'com.daimajia.numberprogressbar:library:1.2@aar'
+}
